@@ -10,5 +10,4 @@
 
 项目中web.py为后端代码，其中包含了与数据库的所有操作，templates和static文件中分别放置了经过jinjia2渲染后的html和js文件，其余.py文件则是需求文件第二问中模拟管理员接受工具请求，机器人将工具运送到传送带，传送到传送工具到出口的过程。create_database.sql为数据库的建表操作。在部署时，可能需要在web.py中修改数据库的相关参数，包括用户名密码等，并且需要手动添加部分数据到数据库中。 
 
-源码编写工作与github.com/frozenlalala 一同完成，该项目为其拷贝。
-可参考https://github.com/frozenlalala/software_homework
+源码编写工作与frozenlalala（后端）、FoRward-999（前端） 一同完成，该项目为[其](https://github.com/frozenlalala/software_homework)拷贝。
